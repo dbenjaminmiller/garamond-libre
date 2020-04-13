@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1511978616
-ModificationTime: 1563744643
+ModificationTime: 1586818525
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -53,7 +53,7 @@ OS2SupYOff: 335
 OS2StrikeYSize: 39
 OS2StrikeYPos: 244
 OS2CapHeight: 1355
-OS2XHeight: 840
+OS2XHeight: 462
 OS2FamilyClass: 258
 OS2Vendor: 'Free'
 OS2CodePages: 2000019f.dfd70000
