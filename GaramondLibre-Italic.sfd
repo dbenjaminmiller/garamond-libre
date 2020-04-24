@@ -16,13 +16,13 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 XUID: [1021 921 275376880 14411516]
-StyleMap: 0x0040
+StyleMap: 0x0001
 FSType: 0
 OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1511978616
-ModificationTime: 1587725958
+ModificationTime: 1587727179
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -4469,7 +4469,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 28 14 6
+WinInfo: 28 7 6
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1116074 3703
