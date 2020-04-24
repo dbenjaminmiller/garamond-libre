@@ -1,10 +1,10 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: GaramondLibre-Italic
 FullName: Garamond Libre Italic
 FamilyName: Garamond Libre
 Weight: Regular
-Copyright: (c) 2019 D. Benjamin Miller; available under the X11 license\nBased on Unicode Fonts for Ancient Scripts; George Douros; 2017
-Version: 1.1
+Copyright: (c) 2019-2020 D. Benjamin Miller; available under the X11 license\nBased on Unicode Fonts for Ancient Scripts; George Douros; 2017
+Version: 1.2
 ItalicAngle: -14.4
 UnderlinePosition: -290
 UnderlineWidth: 34
@@ -22,26 +22,26 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1511978616
-ModificationTime: 1586818525
+ModificationTime: 1587725958
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 2 6 2 9 8 5 9 10 3
-OS2TypoAscent: 926
-OS2TypoAOffset: 0
-OS2TypoDescent: -342
-OS2TypoDOffset: 0
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
 OS2TypoLinegap: 0
-OS2WinAscent: 926
-OS2WinAOffset: 0
-OS2WinDescent: 342
-OS2WinDOffset: 0
-HheadAscent: 926
-HheadAOffset: 0
-HheadDescent: -342
-HheadDOffset: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
 OS2SubXSize: 807
 OS2SubYSize: 697
 OS2SubXOff: -47
@@ -52,8 +52,8 @@ OS2SupXOff: 92
 OS2SupYOff: 335
 OS2StrikeYSize: 39
 OS2StrikeYPos: 244
-OS2CapHeight: 1355
-OS2XHeight: 462
+OS2CapHeight: 738
+OS2XHeight: 407
 OS2FamilyClass: 258
 OS2Vendor: 'Free'
 OS2CodePages: 2000019f.dfd70000
@@ -4469,7 +4469,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 721 7 4
+WinInfo: 28 14 6
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1116074 3703
@@ -9200,7 +9200,7 @@ SplineSet
  174 451 200 420 220 357 c 2
  241 292 l 1
  298 374 l 2
- 333 425 364 451 393 451 c 0
+ 333 425 364 451 393 451 c 4
  430 451 448 433 448 397 c 0xa0
 EndSplineSet
 Substitution2: "smcpLowercasetoSmallCapitalslookup20 subtable" X_SC
@@ -35977,8 +35977,8 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 863 m 1024,0,-1
-1100 -237 m 1024,1,-1
+0 863 m 1024
+1100 -237 m 1024
 EndSplineSet
 EndChar
 
@@ -36000,8 +36000,8 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 863 m 1024,0,-1
-1100 -237 m 1024,1,-1
+0 863 m 1024
+1100 -237 m 1024
 EndSplineSet
 EndChar
 
