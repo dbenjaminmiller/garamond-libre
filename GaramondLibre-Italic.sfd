@@ -4,7 +4,7 @@ FullName: Garamond Libre Italic
 FamilyName: Garamond Libre
 Weight: Regular
 Copyright: (c) 2019-2020 D. Benjamin Miller; available under the X11 license\nBased on Unicode Fonts for Ancient Scripts; George Douros; 2017
-Version: 1.2
+Version: 1.3
 ItalicAngle: -14.4
 UnderlinePosition: -290
 UnderlineWidth: 34
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1511978616
-ModificationTime: 1587727179
+ModificationTime: 1588108390
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -68,7 +68,8 @@ Lookup: 4 0 1 "'rlig' Required Ligatures in Latin lookup 6" { "'rlig' Required L
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 7" { "'liga' Standard Ligatures in Latin lookup 7 subtable"  } ['liga' ('latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'numr' Numerators lookup 8" { "'numr' Numerators lookup 8 subtable"  } ['numr' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'dnom' Denominators lookup 9" { "'dnom' Denominators lookup 9 subtable"  } ['dnom' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 10" { "'onum' Oldstyle Figures lookup 10 subtable" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "lnum" { "lnum subtable"  } []
+Lookup: 1 0 0 "onumOldstyleFigureslookup10-0" { "onumOldstyleFigureslookup10-0 subtable"  } []
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 11" { "'locl' Localized Forms in Latin lookup 11 subtable"  } ['locl' ('latn' <'FRA ' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 12" { "'liga' Standard Ligatures in Latin lookup 12 subtable"  } ['liga' ('latn' <'NLD ' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 13" { "'liga' Standard Ligatures in Latin lookup 13 subtable"  } ['liga' ('latn' <'FRA ' > ) ]
@@ -4469,7 +4470,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 28 7 6
+WinInfo: 28 14 6
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1116074 3703
@@ -5255,6 +5256,7 @@ SplineSet
  316 69 366 112 410 199 c 0
  450 279 471 368 471 466 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" zero_os
 Substitution2: "Single Substitution lookup 89 subtable" zeroinferior
 Substitution2: "Single Substitution lookup 87 subtable" zerosuperior
 Substitution2: "smcpLowercasetoSmallCapitalslookup20 subtable" zero_SC
@@ -5268,7 +5270,6 @@ Substitution2: "Single Substitution lookup 48 subtable" zerosuperior
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 20 subtable" zero_SC
 Substitution2: "'sups' Superscript lookup 16 subtable" zero_SUP
 Substitution2: "'subs' Subscript lookup 15 subtable" zero_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" zero_os
 Substitution2: "'dnom' Denominators lookup 9 subtable" zeroinferior
 Substitution2: "'numr' Numerators lookup 8 subtable" zerosuperior
 EndChar
@@ -5308,6 +5309,7 @@ SplineSet
  415 726 424 728 435 728 c 0
  453 728 462 727 462 723 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" one_os
 Substitution2: "ornmOrnamentslookup44 subtable" gortyna_1
 Substitution2: "Single Substitution lookup 89 subtable" oneinferior
 Substitution2: "Single Substitution lookup 87 subtable" onesuperior
@@ -5323,7 +5325,6 @@ Substitution2: "'ornm' Ornaments lookup 44 subtable" gortyna_1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 20 subtable" one_SC
 Substitution2: "'sups' Superscript lookup 16 subtable" one_SUP
 Substitution2: "'subs' Subscript lookup 15 subtable" one_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" one_os
 Substitution2: "'dnom' Denominators lookup 9 subtable" oneinferior
 Substitution2: "'numr' Numerators lookup 8 subtable" onesuperior
 EndChar
@@ -5364,6 +5365,7 @@ SplineSet
  386 743 425 725 455 688 c 0
  483 654 497 613 497 565 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" two_os
 Substitution2: "ornmOrnamentslookup44 subtable" gortyna_2
 Substitution2: "Single Substitution lookup 89 subtable" twoinferior
 Substitution2: "Single Substitution lookup 87 subtable" twosuperior
@@ -5379,7 +5381,6 @@ Substitution2: "'ornm' Ornaments lookup 44 subtable" gortyna_2
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 20 subtable" two_SC
 Substitution2: "'sups' Superscript lookup 16 subtable" two_SUP
 Substitution2: "'subs' Subscript lookup 15 subtable" two_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" two_os
 Substitution2: "'dnom' Denominators lookup 9 subtable" twoinferior
 Substitution2: "'numr' Numerators lookup 8 subtable" twosuperior
 EndChar
@@ -5432,6 +5433,7 @@ SplineSet
  381 743 415 731 444 708 c 0
  475 683 491 651 491 612 c 0xe8
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" three_os
 Substitution2: "ornmOrnamentslookup44 subtable" gortyna_3
 Substitution2: "Single Substitution lookup 89 subtable" threeinferior
 Substitution2: "Single Substitution lookup 87 subtable" threesuperior
@@ -5447,7 +5449,6 @@ Substitution2: "'ornm' Ornaments lookup 44 subtable" gortyna_3
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 20 subtable" three_SC
 Substitution2: "'sups' Superscript lookup 16 subtable" three_SUP
 Substitution2: "'subs' Subscript lookup 15 subtable" three_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" three_os
 Substitution2: "'dnom' Denominators lookup 9 subtable" threeinferior
 Substitution2: "'numr' Numerators lookup 8 subtable" threesuperior
 EndChar
@@ -5487,6 +5488,7 @@ SplineSet
  323 286 l 1
  409 616 l 1
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" four_os
 Substitution2: "ornmOrnamentslookup44 subtable" gortyna_4
 Substitution2: "Single Substitution lookup 89 subtable" fourinferior
 Substitution2: "Single Substitution lookup 87 subtable" foursuperior
@@ -5502,7 +5504,6 @@ Substitution2: "'ornm' Ornaments lookup 44 subtable" gortyna_4
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 20 subtable" four_SC
 Substitution2: "'sups' Superscript lookup 16 subtable" four_SUP
 Substitution2: "'subs' Subscript lookup 15 subtable" four_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" four_os
 Substitution2: "'dnom' Denominators lookup 9 subtable" fourinferior
 Substitution2: "'numr' Numerators lookup 8 subtable" foursuperior
 EndChar
@@ -5545,6 +5546,7 @@ SplineSet
  495 728 l 2
  502 728 505 725 505 720 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" five_os
 Substitution2: "ornmOrnamentslookup44 subtable" gortyna_5
 Substitution2: "Single Substitution lookup 89 subtable" fiveinferior
 Substitution2: "Single Substitution lookup 87 subtable" fivesuperior
@@ -5560,7 +5562,6 @@ Substitution2: "'ornm' Ornaments lookup 44 subtable" gortyna_5
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 20 subtable" five_SC
 Substitution2: "'sups' Superscript lookup 16 subtable" five_SUP
 Substitution2: "'subs' Subscript lookup 15 subtable" five_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" five_os
 Substitution2: "'dnom' Denominators lookup 9 subtable" fiveinferior
 Substitution2: "'numr' Numerators lookup 8 subtable" fivesuperior
 EndChar
@@ -5603,6 +5604,7 @@ SplineSet
  306 20 341 44 373 90 c 0
  403 134 418 182 418 235 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" six_os
 Substitution2: "ornmOrnamentslookup44 subtable" gortyna_6
 Substitution2: "Single Substitution lookup 89 subtable" sixinferior
 Substitution2: "Single Substitution lookup 87 subtable" sixsuperior
@@ -5618,7 +5620,6 @@ Substitution2: "'ornm' Ornaments lookup 44 subtable" gortyna_6
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 20 subtable" six_SC
 Substitution2: "'sups' Superscript lookup 16 subtable" six_SUP
 Substitution2: "'subs' Subscript lookup 15 subtable" six_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" six_os
 Substitution2: "'dnom' Denominators lookup 9 subtable" sixinferior
 Substitution2: "'numr' Numerators lookup 8 subtable" sixsuperior
 EndChar
@@ -5648,6 +5649,7 @@ SplineSet
  569 728 l 2
  583 728 590 723 590 715 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" seven_os
 Substitution2: "ornmOrnamentslookup44 subtable" gortyna_7
 Substitution2: "Single Substitution lookup 89 subtable" seveninferior
 Substitution2: "Single Substitution lookup 87 subtable" sevensuperior
@@ -5663,7 +5665,6 @@ Substitution2: "'ornm' Ornaments lookup 44 subtable" gortyna_7
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 20 subtable" seven_SC
 Substitution2: "'sups' Superscript lookup 16 subtable" seven_SUP
 Substitution2: "'subs' Subscript lookup 15 subtable" seven_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" seven_os
 Substitution2: "'dnom' Denominators lookup 9 subtable" seveninferior
 Substitution2: "'numr' Numerators lookup 8 subtable" sevensuperior
 EndChar
@@ -5710,6 +5711,7 @@ SplineSet
  280 20 311 36 336 68 c 0
  360 97 373 130 373 166 c 0xf8
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" eight_os
 Substitution2: "ornmOrnamentslookup44 subtable" gortyna_8
 Substitution2: "Single Substitution lookup 89 subtable" eightinferior
 Substitution2: "Single Substitution lookup 87 subtable" eightsuperior
@@ -5725,7 +5727,6 @@ Substitution2: "'ornm' Ornaments lookup 44 subtable" gortyna_8
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 20 subtable" eight_SC
 Substitution2: "'sups' Superscript lookup 16 subtable" eight_SUP
 Substitution2: "'subs' Subscript lookup 15 subtable" eight_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" eight_os
 Substitution2: "'dnom' Denominators lookup 9 subtable" eightinferior
 Substitution2: "'numr' Numerators lookup 8 subtable" eightsuperior
 EndChar
@@ -5768,6 +5769,7 @@ SplineSet
  355 384 393 400 419 432 c 0
  443 462 455 502 455 554 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" nine_os
 Substitution2: "ornmOrnamentslookup44 subtable" gortyna_9
 Substitution2: "Single Substitution lookup 89 subtable" nineinferior
 Substitution2: "Single Substitution lookup 87 subtable" ninesuperior
@@ -5783,7 +5785,6 @@ Substitution2: "'ornm' Ornaments lookup 44 subtable" gortyna_9
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 20 subtable" nine_SC
 Substitution2: "'sups' Superscript lookup 16 subtable" nine_SUP
 Substitution2: "'subs' Subscript lookup 15 subtable" nine_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" nine_os
 Substitution2: "'dnom' Denominators lookup 9 subtable" nineinferior
 Substitution2: "'numr' Numerators lookup 8 subtable" ninesuperior
 EndChar
@@ -7972,7 +7973,6 @@ SplineSet
  128 70 172 107 232 180 c 0
  291 252 320 304 320 333 c 0
 EndSplineSet
-Substitution2: "ornmOrnamentslookup44 subtable" Archytas
 Substitution2: "smcpLowercasetoSmallCapitalslookup20 subtable" A_SC
 Substitution2: "supsSuperscriptlookup16 subtable" a_SUP
 Substitution2: "subsSubscriptlookup15 subtable" a_sub
@@ -8021,7 +8021,6 @@ SplineSet
  209 40 265 78 327 155 c 0
  387 229 416 292 416 344 c 0
 EndSplineSet
-Substitution2: "ornmOrnamentslookup44 subtable" archytas
 Substitution2: "smcpLowercasetoSmallCapitalslookup20 subtable" B_SC
 Substitution2: "supsSuperscriptlookup16 subtable" b_SUP
 Substitution2: "subsSubscriptlookup15 subtable" b_sub
@@ -10245,10 +10244,10 @@ VStem: 318 74<543.594 661.979>
 LayerCount: 2
 Fore
 Refer: 1063 8322 N 1 0 0 1 38 488 2
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" two_os_SUP
 Substitution2: "Single Substitution lookup 91 subtable" twoinferior
 Substitution2: "onumOldstyleFigureslookup10 subtable" two_os_SUP
 Substitution2: "Single Substitution lookup 50 subtable" twoinferior
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" two_os_SUP
 EndChar
 
 StartChar: threesuperior
@@ -10262,10 +10261,10 @@ VStem: 298 73<379.346 486.568> 316 72<603.814 675.133>
 LayerCount: 2
 Fore
 Refer: 1064 8323 N 1 0 0 1 38 488 2
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" three_os_SUP
 Substitution2: "Single Substitution lookup 91 subtable" threeinferior
 Substitution2: "onumOldstyleFigureslookup10 subtable" three_os_SUP
 Substitution2: "Single Substitution lookup 50 subtable" threeinferior
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" three_os_SUP
 EndChar
 
 StartChar: acute
@@ -10424,10 +10423,10 @@ VStem: 107 261
 LayerCount: 2
 Fore
 Refer: 1062 8321 N 1 0 0 1 38 488 2
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" one_os_SUP
 Substitution2: "Single Substitution lookup 91 subtable" oneinferior
 Substitution2: "onumOldstyleFigureslookup10 subtable" one_os_SUP
 Substitution2: "Single Substitution lookup 50 subtable" oneinferior
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" one_os_SUP
 EndChar
 
 StartChar: ordmasculine
@@ -38180,10 +38179,10 @@ VStem: 88 56<357.493 561.356> 360 57<441.96 649.068>
 LayerCount: 2
 Fore
 Refer: 1061 8320 N 1 0 0 1 38 488 2
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" zero_os_SUP
 Substitution2: "Single Substitution lookup 91 subtable" zeroinferior
 Substitution2: "onumOldstyleFigureslookup10 subtable" zero_os_SUP
 Substitution2: "Single Substitution lookup 50 subtable" zeroinferior
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" zero_os_SUP
 EndChar
 
 StartChar: isuperior
@@ -38245,10 +38244,10 @@ VStem: 211 65<260.05 300.4>
 LayerCount: 2
 Fore
 Refer: 1065 8324 N 1 0 0 1 38 488 2
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" four_os_SUP
 Substitution2: "Single Substitution lookup 91 subtable" fourinferior
 Substitution2: "onumOldstyleFigureslookup10 subtable" four_os_SUP
 Substitution2: "Single Substitution lookup 50 subtable" fourinferior
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" four_os_SUP
 EndChar
 
 StartChar: fivesuperior
@@ -38262,10 +38261,10 @@ VStem: 290 73<405.882 514.594>
 LayerCount: 2
 Fore
 Refer: 1066 8325 N 1 0 0 1 38 488 2
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" five_os_SUP
 Substitution2: "Single Substitution lookup 91 subtable" fiveinferior
 Substitution2: "onumOldstyleFigureslookup10 subtable" five_os_SUP
 Substitution2: "Single Substitution lookup 50 subtable" fiveinferior
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" five_os_SUP
 EndChar
 
 StartChar: sixsuperior
@@ -38279,10 +38278,10 @@ VStem: 82 73<319.485 448.386> 323 74<340.908 465.223>
 LayerCount: 2
 Fore
 Refer: 1067 8326 N 1 0 0 1 38 488 2
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" six_os_SUP
 Substitution2: "Single Substitution lookup 91 subtable" sixinferior
 Substitution2: "onumOldstyleFigureslookup10 subtable" six_os_SUP
 Substitution2: "Single Substitution lookup 50 subtable" sixinferior
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" six_os_SUP
 EndChar
 
 StartChar: sevensuperior
@@ -38295,10 +38294,10 @@ HStem: 670 66<155.535 365>
 LayerCount: 2
 Fore
 Refer: 1068 8327 N 1 0 0 1 38 488 2
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" seven_os_SUP
 Substitution2: "Single Substitution lookup 91 subtable" seveninferior
 Substitution2: "onumOldstyleFigureslookup10 subtable" seven_os_SUP
 Substitution2: "Single Substitution lookup 50 subtable" seveninferior
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" seven_os_SUP
 EndChar
 
 StartChar: eightsuperior
@@ -38312,10 +38311,10 @@ VStem: 83 70<302.061 426.377> 144 72<581.865 680.867> 293 73<318.728 429.754> 34
 LayerCount: 2
 Fore
 Refer: 1069 8328 N 1 0 0 1 38 488 2
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" eight_os_SUP
 Substitution2: "Single Substitution lookup 91 subtable" eightinferior
 Substitution2: "onumOldstyleFigureslookup10 subtable" eight_os_SUP
 Substitution2: "Single Substitution lookup 50 subtable" eightinferior
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" eight_os_SUP
 EndChar
 
 StartChar: ninesuperior
@@ -38329,10 +38328,10 @@ VStem: 117 73<534.482 658.035> 350 74<546.663 678.86>
 LayerCount: 2
 Fore
 Refer: 1070 8329 N 1 0 0 1 38 488 2
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" nine_os_SUP
 Substitution2: "Single Substitution lookup 91 subtable" nineinferior
 Substitution2: "onumOldstyleFigureslookup10 subtable" nine_os_SUP
 Substitution2: "Single Substitution lookup 50 subtable" nineinferior
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" nine_os_SUP
 EndChar
 
 StartChar: plussuperior
@@ -38475,8 +38474,8 @@ SplineSet
  220 -170 252 -144 281 -91 c 0
  309 -41 322 15 322 76 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" zero_os_sub
 Substitution2: "onumOldstyleFigureslookup10 subtable" zero_os_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" zero_os_sub
 EndChar
 
 StartChar: oneinferior
@@ -38516,8 +38515,8 @@ SplineSet
  289 246 296 249 305 249 c 0
  322 249 330 245 330 238 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" one_os_sub
 Substitution2: "onumOldstyleFigureslookup10 subtable" one_os_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" one_os_sub
 EndChar
 
 StartChar: twoinferior
@@ -38554,8 +38553,8 @@ SplineSet
  273 258 299 246 321 223 c 0
  343 200 354 172 354 139 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" two_os_sub
 Substitution2: "onumOldstyleFigureslookup10 subtable" two_os_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" two_os_sub
 EndChar
 
 StartChar: threeinferior
@@ -38603,8 +38602,8 @@ SplineSet
  268 258 293 250 314 235 c 0
  338 218 350 196 350 169 c 0xe8
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" three_os_sub
 Substitution2: "onumOldstyleFigureslookup10 subtable" three_os_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" three_os_sub
 EndChar
 
 StartChar: fourinferior
@@ -38641,8 +38640,8 @@ SplineSet
  223 -32 l 1
  272 145 l 1
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" four_os_sub
 Substitution2: "onumOldstyleFigureslookup10 subtable" four_os_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" four_os_sub
 EndChar
 
 StartChar: fiveinferior
@@ -38677,8 +38676,8 @@ SplineSet
  345 248 l 2
  355 248 360 244 360 236 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" five_os_sub
 Substitution2: "onumOldstyleFigureslookup10 subtable" five_os_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" five_os_sub
 EndChar
 
 StartChar: sixinferior
@@ -38720,8 +38719,8 @@ SplineSet
  216 -201 240 -186 259 -156 c 0
  277 -129 285 -100 285 -71 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" six_os_sub
 Substitution2: "onumOldstyleFigureslookup10 subtable" six_os_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" six_os_sub
 EndChar
 
 StartChar: seveninferior
@@ -38749,8 +38748,8 @@ SplineSet
  396 248 l 2
  410 248 418 244 418 234 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" seven_os_sub
 Substitution2: "onumOldstyleFigureslookup10 subtable" seven_os_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" seven_os_sub
 EndChar
 
 StartChar: eightinferior
@@ -38792,8 +38791,8 @@ SplineSet
  195 -201 214 -192 230 -174 c 0
  246 -156 255 -137 255 -115 c 0xe8
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" eight_os_sub
 Substitution2: "onumOldstyleFigureslookup10 subtable" eight_os_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" eight_os_sub
 EndChar
 
 StartChar: nineinferior
@@ -38832,8 +38831,8 @@ SplineSet
  181 36 196 30 215 30 c 0
  279 30 312 64 312 132 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" nine_os_sub
 Substitution2: "onumOldstyleFigureslookup10 subtable" nine_os_sub
-Substitution2: "'onum' Oldstyle Figures lookup 10 subtable" nine_os_sub
 EndChar
 
 StartChar: plusinferior
@@ -115808,6 +115807,7 @@ SplineSet
  288 69 327 87 360 124 c 0
  392 159 408 200 408 245 c 0
 EndSplineSet
+Substitution2: "lnum subtable" zero
 Substitution2: "supsSuperscriptlookup16 subtable" zero_os_SUP
 Substitution2: "subsSubscriptlookup15 subtable" zero_os_sub
 Substitution2: "'sups' Superscript lookup 16 subtable" zero_os_SUP
@@ -115850,6 +115850,7 @@ SplineSet
  255 31 278 31 312 31 c 0
  319 31 322 28 322 23 c 0
 EndSplineSet
+Substitution2: "lnum subtable" one
 Substitution2: "supsSuperscriptlookup16 subtable" one_os_SUP
 Substitution2: "subsSubscriptlookup15 subtable" one_os_sub
 Substitution2: "'sups' Superscript lookup 16 subtable" one_os_SUP
@@ -115893,6 +115894,7 @@ SplineSet
  446 83 l 2
  453 83 456 80 456 75 c 0
 EndSplineSet
+Substitution2: "lnum subtable" two
 Substitution2: "supsSuperscriptlookup16 subtable" two_os_SUP
 Substitution2: "subsSubscriptlookup15 subtable" two_os_sub
 Substitution2: "'sups' Superscript lookup 16 subtable" two_os_SUP
@@ -115945,6 +115947,7 @@ SplineSet
  255 451 287 440 316 418 c 0
  346 394 362 364 362 327 c 0xe8
 EndSplineSet
+Substitution2: "lnum subtable" three
 Substitution2: "supsSuperscriptlookup16 subtable" three_os_SUP
 Substitution2: "subsSubscriptlookup15 subtable" three_os_sub
 Substitution2: "'sups' Superscript lookup 16 subtable" three_os_SUP
@@ -115986,6 +115989,7 @@ SplineSet
  278 29 l 1
  353 317 l 1
 EndSplineSet
+Substitution2: "lnum subtable" four
 Substitution2: "supsSuperscriptlookup16 subtable" four_os_SUP
 Substitution2: "subsSubscriptlookup15 subtable" four_os_sub
 Substitution2: "'sups' Superscript lookup 16 subtable" four_os_SUP
@@ -116029,6 +116033,7 @@ SplineSet
  387 436 l 2
  394 436 397 433 397 428 c 0
 EndSplineSet
+Substitution2: "lnum subtable" five
 Substitution2: "supsSuperscriptlookup16 subtable" five_os_SUP
 Substitution2: "subsSubscriptlookup15 subtable" five_os_sub
 Substitution2: "'sups' Superscript lookup 16 subtable" five_os_SUP
@@ -116072,6 +116077,7 @@ SplineSet
  292 20 326 44 354 91 c 0
  378 131 390 174 390 218 c 0
 EndSplineSet
+Substitution2: "lnum subtable" six
 Substitution2: "supsSuperscriptlookup16 subtable" six_os_SUP
 Substitution2: "subsSubscriptlookup15 subtable" six_os_sub
 Substitution2: "'sups' Superscript lookup 16 subtable" six_os_SUP
@@ -116103,6 +116109,7 @@ SplineSet
  473 436 l 2
  487 436 493 432 493 424 c 0
 EndSplineSet
+Substitution2: "lnum subtable" seven
 Substitution2: "supsSuperscriptlookup16 subtable" seven_os_SUP
 Substitution2: "subsSubscriptlookup15 subtable" seven_os_sub
 Substitution2: "'sups' Superscript lookup 16 subtable" seven_os_SUP
@@ -116150,6 +116157,7 @@ SplineSet
  248 20 276 34 300 63 c 0
  322 90 332 121 332 154 c 0xf8
 EndSplineSet
+Substitution2: "lnum subtable" eight
 Substitution2: "supsSuperscriptlookup16 subtable" eight_os_SUP
 Substitution2: "subsSubscriptlookup15 subtable" eight_os_sub
 Substitution2: "'sups' Superscript lookup 16 subtable" eight_os_SUP
@@ -116193,6 +116201,7 @@ SplineSet
  280 92 318 108 344 141 c 0
  368 170 380 211 380 263 c 0
 EndSplineSet
+Substitution2: "lnum subtable" nine
 Substitution2: "supsSuperscriptlookup16 subtable" nine_os_SUP
 Substitution2: "subsSubscriptlookup15 subtable" nine_os_sub
 Substitution2: "'sups' Superscript lookup 16 subtable" nine_os_SUP
@@ -116695,6 +116704,8 @@ SplineSet
  258 57 296 85 327 142 c 0
  356 195 369 254 366 319 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" zero_os
+Substitution2: "lnum subtable" zero
 EndChar
 
 StartChar: one_SC
@@ -116733,6 +116744,8 @@ SplineSet
  348 501 348 501 349 501 c 0
  359 500 364 497 364 492 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" one_os
+Substitution2: "lnum subtable" one
 EndChar
 
 StartChar: two_SC
@@ -116768,6 +116781,8 @@ SplineSet
  300 511 332 498 357 472 c 0
  381 448 394 420 395 386 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" two_os
+Substitution2: "lnum subtable" two
 EndChar
 
 StartChar: three_SC
@@ -116817,6 +116832,8 @@ SplineSet
  294 511 323 502 348 486 c 0
  374 468 388 445 389 417 c 0xe8
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" three_os
+Substitution2: "lnum subtable" three
 EndChar
 
 StartChar: four_SC
@@ -116855,6 +116872,8 @@ SplineSet
  257 204 l 1
  309 402 l 1
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" four_os
+Substitution2: "lnum subtable" four
 EndChar
 
 StartChar: five_SC
@@ -116894,6 +116913,8 @@ SplineSet
  383 501 l 2
  392 501 397 497 397 490 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" five_os
+Substitution2: "lnum subtable" five
 EndChar
 
 StartChar: six_SC
@@ -116935,6 +116956,8 @@ SplineSet
  252 24 278 39 301 69 c 0
  322 98 332 129 331 163 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" six_os
+Substitution2: "lnum subtable" six
 EndChar
 
 StartChar: seven_SC
@@ -116962,6 +116985,8 @@ SplineSet
  442 501 l 2
  456 501 464 496 464 487 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" seven_os
+Substitution2: "lnum subtable" seven
 EndChar
 
 StartChar: eight_SC
@@ -117005,6 +117030,8 @@ SplineSet
  232 24 255 34 273 54 c 0
  290 73 298 94 297 117 c 0xe8
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" eight_os
+Substitution2: "lnum subtable" eight
 EndChar
 
 StartChar: nine_SC
@@ -117044,6 +117071,8 @@ SplineSet
  202 276 221 269 244 269 c 0
  319 269 355 306 352 379 c 0
 EndSplineSet
+Substitution2: "onumOldstyleFigureslookup10-0 subtable" nine_os
+Substitution2: "lnum subtable" nine
 EndChar
 
 StartChar: colon_SC
@@ -147901,6 +147930,7 @@ SplineSet
  335 426 364 438 388 462 c 0
  411 485 421 511 420 540 c 0
 EndSplineSet
+Substitution2: "lnum subtable" zerosuperior
 EndChar
 
 StartChar: one_os_SUP
@@ -147939,6 +147969,7 @@ SplineSet
  325 400 335 400 356 400 c 0
  365 400 370 397 370 390 c 0
 EndSplineSet
+Substitution2: "lnum subtable" onesuperior
 EndChar
 
 StartChar: two_os_SUP
@@ -147978,6 +148009,7 @@ SplineSet
  460 436 l 2
  469 436 473 432 473 425 c 0
 EndSplineSet
+Substitution2: "lnum subtable" twosuperior
 EndChar
 
 StartChar: three_os_SUP
@@ -148024,6 +148056,7 @@ SplineSet
  298 683 325 675 349 660 c 0
  375 643 389 621 390 595 c 0
 EndSplineSet
+Substitution2: "lnum subtable" threesuperior
 EndChar
 
 StartChar: four_os_SUP
@@ -148063,6 +148096,7 @@ SplineSet
  323 399 l 1
  368 570 l 1
 EndSplineSet
+Substitution2: "lnum subtable" foursuperior
 EndChar
 
 StartChar: five_os_SUP
@@ -148100,6 +148134,7 @@ SplineSet
  401 674 l 2
  410 674 415 670 415 663 c 0
 EndSplineSet
+Substitution2: "lnum subtable" fivesuperior
 EndChar
 
 StartChar: six_os_SUP
@@ -148140,6 +148175,7 @@ SplineSet
  342 393 366 408 386 438 c 0
  404 464 411 492 410 521 c 0
 EndSplineSet
+Substitution2: "lnum subtable" sixsuperior
 EndChar
 
 StartChar: seven_os_SUP
@@ -148167,6 +148203,7 @@ SplineSet
  468 674 l 2
  482 674 490 669 490 660 c 0
 EndSplineSet
+Substitution2: "lnum subtable" sevensuperior
 EndChar
 
 StartChar: eight_os_SUP
@@ -148209,6 +148246,7 @@ SplineSet
  308 393 328 403 345 421 c 0
  360 438 368 456 367 477 c 0xe8
 EndSplineSet
+Substitution2: "lnum subtable" eightsuperior
 EndChar
 
 StartChar: nine_os_SUP
@@ -148247,6 +148285,7 @@ SplineSet
  245 448 264 442 287 442 c 0
  361 442 398 478 395 551 c 0
 EndSplineSet
+Substitution2: "lnum subtable" ninesuperior
 EndChar
 
 StartChar: exclam_sub
@@ -153218,6 +153257,7 @@ VStem: -10 60<-94.7873 18.708> 267 61<-77.8748 42.2102>
 LayerCount: 2
 Fore
 Refer: 3143 -1 N 1 0 0 1 -153 -552 2
+Substitution2: "lnum subtable" zeroinferior
 EndChar
 
 StartChar: one_os_sub
@@ -153231,6 +153271,7 @@ VStem: -39 256
 LayerCount: 2
 Fore
 Refer: 3144 -1 N 1 0 0 1 -153 -552 2
+Substitution2: "lnum subtable" oneinferior
 EndChar
 
 StartChar: two_os_sub
@@ -153244,6 +153285,7 @@ VStem: 198 76<-6.57364 56.8635>
 LayerCount: 2
 Fore
 Refer: 3145 -1 N 1 0 0 1 -153 -552 2
+Substitution2: "lnum subtable" twoinferior
 EndChar
 
 StartChar: three_os_sub
@@ -153257,6 +153299,7 @@ VStem: 159 76<-228.09 -121.611 -11.9492 61.7344>
 LayerCount: 2
 Fore
 Refer: 3146 -1 N 1 0 0 1 -153 -552 2
+Substitution2: "lnum subtable" threeinferior
 EndChar
 
 StartChar: four_os_sub
@@ -153270,6 +153313,7 @@ VStem: 124 69<-343 -302.094>
 LayerCount: 2
 Fore
 Refer: 3147 -1 N 1 0 0 1 -153 -552 2
+Substitution2: "lnum subtable" fourinferior
 EndChar
 
 StartChar: five_os_sub
@@ -153283,6 +153327,7 @@ VStem: 156 78<-228.426 -120.227>
 LayerCount: 2
 Fore
 Refer: 3148 -1 N 1 0 0 1 -153 -552 2
+Substitution2: "lnum subtable" fiveinferior
 EndChar
 
 StartChar: six_os_sub
@@ -153296,6 +153341,7 @@ VStem: 2 76<-119.691 0.730988> 257 75<-106.239 14.4353>
 LayerCount: 2
 Fore
 Refer: 3149 -1 N 1 0 0 1 -153 -552 2
+Substitution2: "lnum subtable" sixinferior
 EndChar
 
 StartChar: seven_os_sub
@@ -153308,6 +153354,7 @@ HStem: 54 68<-0.497223 242>
 LayerCount: 2
 Fore
 Refer: 3150 -1 N 1 0 0 1 -153 -552 2
+Substitution2: "lnum subtable" seveninferior
 EndChar
 
 StartChar: eight_os_sub
@@ -153321,6 +153368,7 @@ VStem: -7 71<-138.545 -19.8992> 48 73<134.812 230.164> 214 75<-128.392 -23.254> 
 LayerCount: 2
 Fore
 Refer: 3151 -1 N 1 0 0 1 -153 -552 2
+Substitution2: "lnum subtable" eightinferior
 EndChar
 
 StartChar: nine_os_sub
@@ -153334,6 +153382,7 @@ VStem: -22 78<-89.3416 38.1838> 242 81<-77.3048 50.3>
 LayerCount: 2
 Fore
 Refer: 3152 -1 N 1 0 0 1 -153 -552 2
+Substitution2: "lnum subtable" nineinferior
 EndChar
 
 StartChar: Alphamacronvrachy
